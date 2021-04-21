@@ -253,7 +253,7 @@
   }
   body.front #tophead .c-page .mobile-search::before {
     content: "";
-    border: 1px solid #333;
+    background: #333;
     width: 2px;
     height: 7px;
     position: absolute;
@@ -345,7 +345,7 @@
   }
   body.front #front-top-search .c-page .input a::before {
     content: "";
-    border: 1px solid #fff;
+    background: #fff;
     width: 2px;
     height: 7px;
     position: absolute;
