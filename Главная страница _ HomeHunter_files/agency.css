@@ -1,0 +1,172 @@
+.node-type-agency .header-info > div {
+	float: left;
+}
+.node-type-agency .header-info .agency-logo {
+    width: 144px;
+    margin-right: 30px;
+    border: 1px solid #ececec;
+    height: 144px;
+    border-radius: 4px;
+    position: relative;
+}
+.node-type-agency .header-info .agency-logo img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    max-width: 124px;
+    max-height: 124px;
+}
+.node-type-agency .header-info .agency-main-info {
+	width: 620px;
+}
+.node-type-agency .header-info h1 {
+	margin-bottom: 0;
+}
+.node-type-agency .header-info .year-job {
+	color: #999;
+	font-size: 13px;
+	margin: 8px 0 18px;
+}
+.node-type-agency .header-info .agency-right-info {
+    width: 290px;
+    float: right;
+}
+.node-type-agency .header-info .agency-right-info .line {
+	margin: 0 0 15px;
+	line-height: 29px;
+}
+.node-type-agency .header-info .agency-right-info .line span {
+	display: block;
+	float: right;
+    color: #5947b3;
+}
+.node-type-agency .header-info .agency-right-info .line.phone span {
+    font-weight: 600;
+}
+.node-type-agency .header-info .agency-right-info .line.phone span.show {
+    border: 2px solid #cdc7e8;
+    line-height: 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #5947b3;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.node-type-agency .header-info .agency-right-info .line label {
+	display: block;
+	float: left;
+	width: 100px;
+}
+
+
+.agency-line-box {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+.agency-line-box > div {
+    float: left;
+}
+.agency-line-box .agency-logo {
+    display: block;
+    width: 65px;
+    height: 65px;
+    margin-right: 32px;
+    border-radius: 4px;
+    position: relative;
+    float: left;
+}
+.agency-line-box .agency-logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 60px;
+    max-height: 60px;
+}
+.agency-line-box .title-box {
+    width: 280px;
+    margin-right: 30px;
+    margin: 9px 30px 0 0;
+}
+.agency-line-box .title-box .label {
+    color: #333;
+    font-size: 15px;
+    line-height: 20px;
+}
+.agency-line-box .title-box .year-job {
+    color: #808080;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.agency-line-box .more-info > * {
+    margin: 8px 0 0;
+    display: inline-block;
+}
+.agency-line-box .more-info .area {
+    font-size: 11px;
+    line-height: 16px;
+    border: 1px solid #B2EACC;
+    border-radius: 4px;
+    color: #01B957;
+    padding: 0 6px 0 21px;
+    background: url(../i/icons/checkbox.svg) 6px 50% no-repeat;
+    margin-right: 16px;
+}
+.agency-line-box .body {
+    float: left;
+    width: 420px;
+    color: #808080;
+    font-size: 13px;
+    line-height: 20px;
+}
+.agency-line-box .list {
+    display: block;
+    float: right;
+    line-height: 30px;
+    border: 1px solid #cdc7e8;
+    border-radius: 4px;
+    padding: 0 16px;
+    width: 134px;
+}
+.agency-line-box .list span {
+    display: block;
+    float: right;
+    font-size: 13px;
+    color: #5947b3;
+}
+.agency-line-box .list span .arrow {
+    width: 10px;
+    height: 30px;
+    -webkit-mask: url(../i/icons/arrow.svg) 50% no-repeat;
+    mask: url(../i/icons/arrow.svg) 50% no-repeat;
+    -webkit-mask-size: 4px;
+    mask-size: 4px !important;
+    background: #5947b3;
+    margin-left: 6px;
+}
+.agency-line-box .list:hover {
+    background: #5947b3;
+    border-color: #5947b3;
+    color: #fff;
+}
+.agency-line-box .list:hover span {
+    color: #fff;
+}
+.agency-line-box .list:hover span .arrow {
+    background: #fff;
+}
+.page-agency .agdesc {
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 0 10px;
+}
+.page-agency .agdesc span {
+    color: #999;
+}
+.page-agency h1 {
+    font-size: 36px;
+    line-height: 42px;
+}
