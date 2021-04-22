@@ -142,8 +142,8 @@
     right: 20px;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
     background: none;
   }
   body.front #tophead .c-page .toggle-menu.active::before {
@@ -161,7 +161,7 @@
     content: "";
     position: absolute;
     top: 50%;
-    left: 0;
+    right: 0;
     width: 20px;
     height: 2px;
     background: #333;
