@@ -58,4 +58,9 @@ $(document).on('click', '.toggle-menu', function () {
 })
 $('.toggle-more').on('click', function () {
     $('#front-block-top-query>.content').find('.query-hidden').slideToggle()
+    if ($('.toggle-more').text() == 'Показать всё') {
+        $('.toggle-more').text('Скрыть').append('<span class="toggle-more__icon active" />')
+    } else {
+        $('.toggle-more').text('Показать всё').append('<span class="toggle-more__icon" />')
+    }
 })

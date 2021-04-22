@@ -451,6 +451,8 @@
     font-size: 14px;
     line-height: 50px;
     color: #5947B3;
+    -webkit-transition: .35s;
+    transition: .35s;
   }
   body.front #front-block-top-query .toggle-more .toggle-more__icon {
     display: block;
@@ -480,6 +482,10 @@
     background: #5947B3;
     -webkit-transform: rotate(-45deg) translateY(-50%);
             transform: rotate(-45deg) translateY(-50%);
+  }
+  body.front #front-block-top-query .toggle-more .toggle-more__icon.active {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
   }
   body.front #front-top-10 {
     width: 100% !important;
