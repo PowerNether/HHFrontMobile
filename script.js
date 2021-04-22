@@ -56,3 +56,6 @@ $(window).resize(function () {
 $(document).on('click', '.toggle-menu', function () {
     $('.mobile-menu').slideToggle()
 })
+$('.toggle-more').on('click', function () {
+    $('#front-block-top-query>.content').find('.query-hidden').slideToggle()
+})
