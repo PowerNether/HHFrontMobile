@@ -63,24 +63,31 @@
                     right: 20px
                     transform: translateY(-50%)
                     width: 20px
-                    height: 2px
-                    background: #333
-                    &::before
-                        content: ""
+                    height: 20px
+                    .toggle-icon
                         position: absolute
-                        top: -6px
+                        top: 50%
                         left: 0
+                        transform: translateY(-50%)
                         width: 20px
                         height: 2px
                         background: #333
-                    &::after
-                        content: ""
-                        position: absolute
-                        bottom: -6px
-                        left: 0
-                        width: 20px
-                        height: 2px
-                        background: #333
+                        &::before
+                            content: ""
+                            position: absolute
+                            top: -6px
+                            left: 0
+                            width: 20px
+                            height: 2px
+                            background: #333
+                        &::after
+                            content: ""
+                            position: absolute
+                            bottom: -6px
+                            left: 0
+                            width: 20px
+                            height: 2px
+                            background: #333
                 .toggle-menu.active
                     z-index: 17px
                     cursor: pointer
@@ -89,26 +96,26 @@
                     right: 20px
                     transform: translateY(-50%)
                     width: 20px
-                    height: 2px
+                    height: 20px
                     background: none
                     &::before
                         content: ""
                         position: absolute
-                        top: 0px
+                        top: 50%
                         left: 0
                         width: 20px
                         height: 2px
                         background: #333
-                        transform: rotate(-45deg)
+                        transform: rotate(-45deg) translateY(-50%)
                     &::after
                         content: ""
                         position: absolute
-                        top: 0px
+                        top: 50%
                         left: 0
                         width: 20px
                         height: 2px
                         background: #333
-                        transform: rotate(45deg)
+                        transform: rotate(45deg) translateY(-50%)
                 .mobile-menu
                     overflow-y: auto
                     display: none

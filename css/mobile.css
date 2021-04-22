@@ -104,10 +104,19 @@
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     width: 20px;
+    height: 20px;
+  }
+  body.front #tophead .c-page .toggle-menu .toggle-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 20px;
     height: 2px;
     background: #333;
   }
-  body.front #tophead .c-page .toggle-menu::before {
+  body.front #tophead .c-page .toggle-menu .toggle-icon::before {
     content: "";
     position: absolute;
     top: -6px;
@@ -116,7 +125,7 @@
     height: 2px;
     background: #333;
   }
-  body.front #tophead .c-page .toggle-menu::after {
+  body.front #tophead .c-page .toggle-menu .toggle-icon::after {
     content: "";
     position: absolute;
     bottom: -6px;
@@ -134,30 +143,30 @@
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     width: 20px;
-    height: 2px;
+    height: 20px;
     background: none;
   }
   body.front #tophead .c-page .toggle-menu.active::before {
     content: "";
     position: absolute;
-    top: 0px;
+    top: 50%;
     left: 0;
     width: 20px;
     height: 2px;
     background: #333;
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+            transform: rotate(-45deg) translateY(-50%);
   }
   body.front #tophead .c-page .toggle-menu.active::after {
     content: "";
     position: absolute;
-    top: 0px;
+    top: 50%;
     left: 0;
     width: 20px;
     height: 2px;
     background: #333;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -webkit-transform: rotate(45deg) translateY(-50%);
+            transform: rotate(45deg) translateY(-50%);
   }
   body.front #tophead .c-page .mobile-menu {
     overflow-y: auto;
